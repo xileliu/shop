@@ -1,0 +1,22 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "shop study",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xileliu/shop.git"
+  },
+  "author": "xiele.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xileliu/shop/issues"
+  },
+  "homepage": "https://github.com/xileliu/shop#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
