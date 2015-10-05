@@ -1,0 +1,47 @@
+<div class="col-md-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">注册</div>
+        <form action="" novalidate role="form name=userform" class="form-horizontal" ng-submit="save()">
+            <div class="panel-body">
+                <div class="form-group row">
+                    <label for="username" class="control-label col-sm-2 col-sm-offset-2 text-right">用户</label>
+                    <div class="input-group col-sm-4">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                        <input class="form-control" type="text" id="username" name="username" ng-model="user.username"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="email" class="control-label col-sm-2 col-sm-offset-2 text-right">邮箱</label>
+                    <div class="input-group col-sm-4">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                        <input class="form-control" type="text" id="email" name="email" ng-model="user.email"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="password" class="control-label col-sm-2 col-sm-offset-2 text-right">密码</label>
+                    <div class="input-group col-sm-4">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input class="form-control" type="text" id="password" name="password" ng-model="user.password"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="repassword" class="control-label col-sm-2 col-sm-offset-2 text-right">密码</label>
+                    <div class="input-group col-sm-4">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input class="form-control" type="text" id="repassword" name="repassword" ng-model="user.repassword"/>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="panel-footer clearfix">
+                <div class="col-sm-offset-5 col-sm-1">
+                    <button type="submit" class="btn btn-lg btn-primary btn-enter">注册</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
